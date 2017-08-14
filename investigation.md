@@ -4,8 +4,26 @@
    Our independent variable is the congruent or incongruent word that 
    is printed and our dependent variable is the amount of time taken by the participants to name the ink colors.
 
-**2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.**
-
+**2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? 
+   Justify your choices.**
+   
+   As Null hypothesis states that there is no relationship or nothing changes between two measured phenomena, the appropriate null 
+   hypothesis (H<sub>0</sub>) in this task is that there is no difference in time taken to identify the coor of the words in either 
+   congruent or incongruent conditions. 
+   
+   And the appropriate alternate hypothesis (H<sub>A</sub>) is that the incongruent word condition would take longer than the congruent 
+   word condition. 
+   
+   H<sub>0</sub>: μ<sub>i</sub> = μ<sub>c</sub> (μ<sub>i</sub> - population mean of incongruent values, μ<sub>c</sub> - population mean 
+   of congruent values) 
+   
+   H<sub>A</sub>: μ<sub>i</sub> > μ<sub>c</sub> (μ<sub>i</sub> - population mean of incongruent values, μ<sub>c</sub> - population mean 
+   of congruent values)
+   
+   In other words, if the difference in means of incongruent and congruent word conditions is equal to 0, it means the time taken to say 
+   the color out loud in both the conditions is the same and that the null hypothesis is true else, if the difference is greater than 0 
+   then it means that the time taken in the incongruent condition is more than the tome taken in the congruent condition and that the 
+   alternate hypothesis is true.
 
 **3. Report some descriptive statistics regarding this dataset. 
    Include at least one measure of central tendency and at least one measure of variability.**
