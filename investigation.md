@@ -11,7 +11,7 @@
    hypothesis (H<sub>0</sub>) in this task is that there is no difference in time taken to identify the coor of the words in either 
    congruent or incongruent conditions. 
    
-   And the appropriate alternate hypothesis (H<sub>A</sub>) is that the incongruent word condition would take longer than the congruent 
+   And the appropriate alternative hypothesis (H<sub>A</sub>) is that the incongruent word condition would take longer than the congruent 
    word condition. 
    
    H<sub>0</sub>: μ<sub>i</sub> = μ<sub>c</sub> (μ<sub>i</sub> - population mean of incongruent values, μ<sub>c</sub> - population mean 
@@ -23,7 +23,7 @@
    In other words, if the difference in means of incongruent and congruent word conditions is equal to 0, it means the time taken to say 
    the color out loud in both the conditions is the same and that the null hypothesis is true else, if the difference is greater than 0 
    then it means that the time taken in the incongruent condition is more than the tome taken in the congruent condition and that the 
-   alternate hypothesis is true.
+   alternativee hypothesis is true.
 
 **3. Report some descriptive statistics regarding this dataset. 
    Include at least one measure of central tendency and at least one measure of variability.**
@@ -44,3 +44,26 @@
 **5. Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? 
    Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. 
    Did the results match up with your expectations?**
+   
+   Based on the alternative hypothesis, the appropriate test that should be conducted is one tailed positive direction test.
+   
+   Words in the lists (or sample size), n = 24
+   
+   Degrees of freedom,                 df = 23
+   
+   t-critical for \alpha = .05, t-critical = 1.714
+   
+   Std error of the mean, SEM = 4.79/\sqrt 24 = 0.979
+   
+   Mean difference = 22.01 - 14.05 = 7.96
+   
+   t-statistic = Mean difference/SEM = 7.96/0.979 = 8.13
+   
+   Because the t-statistic is greater than the t-critical, it is safe to reject the null hypothesis. This means that it does take longer 
+   to say the color out loud in the condition of incongruent words than congruent words.
+   
+   The p-value in this case is greater than 0.05 and the results are statistically significant.
+   
+**6. Optional: What do you think is responsible for the effects observed? Can you think of an alternative or similar task that would 
+   result in a similar effect? Some research about the problem will be helpful for thinking about these two questions!**
+   
