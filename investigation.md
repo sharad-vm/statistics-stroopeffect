@@ -28,20 +28,30 @@
 **3. Report some descriptive statistics regarding this dataset. 
    Include at least one measure of central tendency and at least one measure of variability.**
 
-   | Statistics      | Congruent     | Incongruent  | Overall   |
-   | --------------- |:-------------:| ------------:| ---------:|
-   | Mean            | 14.05         | 22.01        | 18.03     |
-   | Median          | 14.35         | 21.01        | 17.73     |
-   | Pop. Variance   | 12.14         | 22.05        | 32.95     |
-   | Pop. Std. Dev.  | 3.48          | 4.69         | 5.74      |
-   | Sample Variance | 12.66         | 23.01        | 33.65     |
-   | Sample Std. Dev.| 3.55          | 4.79         | 5.80      |
+   | Statistics      | Congruent     | Incongruent  | Difference   |
+   | --------------- |:-------------:| ------------:| ------------:|
+   | Mean            | 14.05         | 22.01        | 7.96         |
+   | Median          | 14.35         | 21.01        | 7.66         |
+   | Pop. Variance   | 12.14         | 22.05        | 22.68        |
+   | Pop. Std. Dev.  | 3.48          | 4.69         | 4.76         |
+   | Sample Variance | 12.66         | 23.01        | 11.58        |
+   | Sample Std. Dev.| 3.55          | 4.79         | 3.4          |
+      
    
 **4. Provide one or two visualizations that show the distribution of the sample data. 
    Write one or two sentences noting what you observe about the plot or plots.**
    
+   ![alt text](https://github.com/sharad-vm/statistics-stroopeffect/blob/master/congruent-incongruent-histoogram.png  "Histogram of Congruent & Incongruent conditions")
    
-**5. Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? 
+   By plotting the congruent and incongruent word condition histograms as displayed above, it is clearly evident that the incongruent words have taken longer time to be identified than congruent. 
+   
+   ![alt text](https://github.com/sharad-vm/statistics-stroopeffect/blob/master/congruent-normal.png "Normal distribution of congruent condition")
+   
+   ![alt text](https://github.com/sharad-vm/statistics-stroopeffect/blob/master/incongruent-normal.png "Normal distribution of incongruent condition")
+   
+   As shown above, both the word conditions are more or less normally distributed with a few outliers in incongruent word condition and the means of the conditions can also be verified in the figures above.
+   
+ **5. Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? 
    Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. 
    Did the results match up with your expectations?**
    
@@ -51,19 +61,30 @@
    
    Degrees of freedom,                 df = 23
    
-   t-critical for \alpha = .05, t-critical = 1.714
+   t-critical for $\alpha$ = .05, t-critical = 1.714
    
-   Std error of the mean, SEM = 4.79/\sqrt 24 = 0.979
+   Std error of the mean, SEM = 4.86/$\sqrt{24}$ = 0.992
    
    Mean difference = 22.01 - 14.05 = 7.96
    
-   t-statistic = Mean difference/SEM = 7.96/0.979 = 8.13
-   
-   Because the t-statistic is greater than the t-critical, it is safe to reject the null hypothesis. This means that it does take longer 
-   to say the color out loud in the condition of incongruent words than congruent words.
+   t-statistic = Mean difference/SEM = 7.96/0.992 = 8.02
    
    The p-value in this case is greater than 0.05 and the results are statistically significant.
+   
+   Because the t-statistic is greater than the t-critical, it is safe to reject the null hypothesis. This means that it  does take longer to say the color out loud in the condition of incongruent words than congruent words and matches my expectations which is also the alternative hypothesis.
    
 **6. Optional: What do you think is responsible for the effects observed? Can you think of an alternative or similar task that would 
    result in a similar effect? Some research about the problem will be helpful for thinking about these two questions!**
    
+   I think the brain takes longer to connect the incongruent word with the color the word is in while in the case of congruent words, recognizing the color of the word or reading the word is good enough as they both would be the same. 
+   
+   An alternative to this task would be to use reversed words instead of regular words.
+   
+   Example - Congruent words - RED GREEN BLUE
+             Incongruent words - DER NEERG EULB
+   
+**References**
+
++ [Udacity's Statistics Course](https://classroom.udacity.com/nanodegrees/nd002/parts/0021345402/modules/458220420175460/lessons/4621269407/concepts/2302290830923)
+
++ [Wikipedia - Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect)
