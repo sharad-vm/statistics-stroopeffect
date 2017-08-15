@@ -24,7 +24,13 @@
    the color out loud in both the conditions is the same and that the null hypothesis is true else, if the difference is greater than 0 
    then it means that the time taken in the incongruent condition is more than the tome taken in the congruent condition and that the 
    alternativee hypothesis is true.
-
+   
+   **Assumptions**
+   
+   As we don't know the population standard deviation and that we have a sample size of less than 30, the most appropriate statistical 
+   score for hypothesis testing is a t-score. And as it looks like the same participants are taking both the tests at different times 
+   with different conditions, we have dependent samples. We can compare the two means of dependent samples with a one-tailed t-test.
+   
 **3. Report some descriptive statistics regarding this dataset. 
    Include at least one measure of central tendency and at least one measure of variability.**
 
@@ -88,3 +94,5 @@
 + [Udacity's Statistics Course](https://classroom.udacity.com/nanodegrees/nd002/parts/0021345402/modules/458220420175460/lessons/4621269407/concepts/2302290830923)
 
 + [Wikipedia - Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect)
+
++ [T-Score vs. Z-Score: What's the Difference?](http://www.statisticshowto.com/when-to-use-a-t-score-vs-z-score/)
